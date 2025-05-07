@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F1E8D9; 
+  color: #2D2D2D; 
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ADE8AF; 
+  color: #2D2D2D;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0 0 0;
+  padding: 0;
+  background-color: #90BE6D;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #FDFDFB;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #74A84E;
+  border-radius: 5px;
+}
+
+main {
+  background-color: #D6CFC2; 
+  padding: 30px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+  background-color: #C9E4C5; 
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  border: 3px solid #ADE8AF; 
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #ADE8AF;
+  color: #2D2D2D;
+  font-size: 0.95em;
+  border-top: 4px solid #90BE6D;
+}
+
+footer a {
+  color: #F4976C; 
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.tip-box {
+  background-color: #b2e0b2;
+  border-left: 6px solid #4caf50;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 6px;
+  color: #1f4037;
+  font-style: italic;
+}
+.site-logo {
+  height: 80px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
