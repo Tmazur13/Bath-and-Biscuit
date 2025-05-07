@@ -27,6 +27,7 @@ nav ul {
   margin: 10px 0 0 0;
   padding: 0;
   background-color: #90BE6D;
+   min-height: 60px;
 }
 
 nav ul li {
